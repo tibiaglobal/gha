@@ -1,3 +1,4 @@
+---
 name: SonarCloud - Test
 on:
   push:
