@@ -1,7 +1,14 @@
 ---
 name: Build - Windows
 
-on: [push, pull_request]
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+      - dev
+      - devel
+      - develop
 
 env:
   VCPKG_BUILD_TYPE: release
@@ -23,7 +30,6 @@ jobs:
               boost-asio boost-iostreams boost-system boost-filesystem
               boost-variant boost-lockfree cryptopp curl jsoncpp
               luajit libmariadb pugixml spdlog
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -57,7 +63,7 @@ jobs:
         shell: pwsh
         run: |
           Copy-Item -Path ${{ github.workspace }}\build\bin\* -Destination ${{ github.workspace }} -Recurse
-
+          
       - name: Create and Upload Full Datapack
         uses: actions/upload-artifact@v2
         with:
@@ -77,7 +83,7 @@ jobs:
             !${{ github.workspace }}/cmake/
             !${{ github.workspace }}/sonar-project.properties
             !${{ github.workspace }}/Jenkinsfile
-
+            
       - name: Create and Upload Server Only
         uses: actions/upload-artifact@v2
         with:

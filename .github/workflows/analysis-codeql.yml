@@ -1,7 +1,14 @@
 ---
 name: Analysis - CodeQL
 
-on: [push, pull_request]
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+      - dev
+      - devel
+      - develop
 
 env:
   VCPKG_BUILD_TYPE: release
@@ -33,7 +40,6 @@ jobs:
         run: >
           sudo apt-get update && sudo apt-get install ccache build-essential
           libluajit-5.1-dev zip
-
       - name: CCache
         id: ccache
         uses: actions/cache@v2
@@ -43,7 +49,6 @@ jobs:
           restore-keys: |
             ccache-${{ runner.os }}-RelWithDebInfo-
             ccache-${{ runner.os }}-
-
       - name: Restore artifacts, or setup vcpkg (do not install any package)
         if: ${{ matrix.language == 'cpp' }}
         uses: lukka/run-vcpkg@v7
