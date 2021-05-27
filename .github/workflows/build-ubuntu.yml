@@ -1,7 +1,14 @@
 ---
 name: Build - Ubuntu
 
-on: [push, pull_request]
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+      - dev
+      - devel
+      - develop
 
 env:
   VCPKG_BUILD_TYPE: release
@@ -16,11 +23,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-18.04, ubuntu-20.04]
+        os: [ubuntu-20.04]
         buildtype: [Release, Debug, RelWithDebInfo]
         include:
-          - os: ubuntu-18.04
-            triplet: x64-linux
           - os: ubuntu-20.04
             triplet: x64-linux
 
@@ -32,7 +37,7 @@ jobs:
         run: >
           sudo apt-get update && sudo apt-get install ccache build-essential
           libluajit-5.1-dev zip
-
+          
       - name: CCache
         id: ccache
         uses: actions/cache@v2
@@ -42,7 +47,7 @@ jobs:
           restore-keys: |
             ccache-${{ matrix.os }}-${{ matrix.buildtype }}-
             ccache-${{ matrix.os }}-
-
+            
       - name: Restore artifacts, or setup vcpkg (do not install any package)
         uses: lukka/run-vcpkg@v7
         with:
@@ -70,7 +75,7 @@ jobs:
           ccache -s
           mv config.lua.dist config.lua
           mv build/bin/otbr .
-
+          
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
