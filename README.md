@@ -19,6 +19,13 @@
 [![Build - Ubuntu](https://github.com/Beats-Dh/Gha/actions/workflows/build-ubuntu.yml/badge.svg?branch=develop)](https://github.com/Beats-Dh/Gha/actions/workflows/build-ubuntu.yml)
 [![Build - Windows](https://github.com/Beats-Dh/Gha/actions/workflows/build-windows.yml/badge.svg?branch=develop)](https://github.com/Beats-Dh/Gha/actions/workflows/build-windows.yml)
 
+## Docker
+`docker pull opentibiabr/canary:latest`<br><br>
+[![Automation](https://img.shields.io/docker/cloud/automated/opentibiabr/canary)](https://hub.docker.com/r/opentibiabr/canary)
+[![Image Size](https://img.shields.io/docker/image-size/opentibiabr/canary)](https://hub.docker.com/r/opentibiabr/canary/tags?page=1&ordering=last_updated)
+![Pulls](https://img.shields.io/docker/pulls/opentibiabr/canary)
+[![Build](https://img.shields.io/docker/cloud/build/opentibiabr/canary)](https://hub.docker.com/r/opentibiabr/canary/builds)
+
 ## Project
 
 OTServ Brasil - Global Server is a free and open-source MMORPG server emulator written in C++. It is a fork of the [Forgotten Server](https://github.com/otland/forgottenserver) project. To connect to the server and to take a stable experience, you can use our [own client](https://forums.otserv.com.br/index.php?/forums/topic/167933-otservbr-global-cliente-tibia-12/) and if you want to edit something, check our [customized tools](https://github.com/opentibiabr/tools).
