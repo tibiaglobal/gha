@@ -20,11 +20,11 @@
 [![Build - Windows](https://github.com/Beats-Dh/Gha/actions/workflows/build-windows.yml/badge.svg?branch=develop)](https://github.com/Beats-Dh/Gha/actions/workflows/build-windows.yml)
 
 ## Docker
-`docker pull opentibiabr/canary:latest`<br><br>
-[![Automation](https://img.shields.io/docker/cloud/automated/opentibiabr/canary)](https://hub.docker.com/r/opentibiabr/canary)
-[![Image Size](https://img.shields.io/docker/image-size/opentibiabr/canary)](https://hub.docker.com/r/opentibiabr/canary/tags?page=1&ordering=last_updated)
-![Pulls](https://img.shields.io/docker/pulls/opentibiabr/canary)
-[![Build](https://img.shields.io/docker/cloud/build/opentibiabr/canary)](https://hub.docker.com/r/opentibiabr/canary/builds)
+`docker pull beatsdaniel/gha:latest`<br><br>
+[![Automation](https://img.shields.io/docker/cloud/automated/beatsdaniel/gha)](https://hub.docker.com/r/beatsdaniel/gha)
+[![Image Size](https://img.shields.io/docker/image-size/beatsdaniel/gha)](https://hub.docker.com/r/beatsdaniel/gha/tags?page=1&ordering=last_updated)
+![Pulls](https://img.shields.io/docker/pulls/beatsdaniel/gha)
+[![Build](https://img.shields.io/docker/cloud/build/beatsdaniel/gha)](https://hub.docker.com/r/beatsdaniel/gha/builds)
 
 ## Project
 
