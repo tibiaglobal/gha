@@ -1,11 +1,13 @@
 ---
 name: SonarCloud - Test
 on:
-  push:
-    branches:
+    push:
+     branches:
       - develop
   pull_request:
     types: [opened, synchronize, reopened]
+    push:
+      
 jobs:
   sonarcloud:
     name: SonarCloud
