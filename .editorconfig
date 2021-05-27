@@ -30,7 +30,7 @@ indent_size = 2
 indent_brace_style = K&R
 spaces_around_brackets = none
 
-[*.{yml,yaml,json}]
+[*.{yml,yaml,yamllint,json,sql}]
 indent_style = space
 indent_size = 2
 
