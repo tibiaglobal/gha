@@ -42,7 +42,7 @@ before_build:
       cmake --build . --config Release
 
 build:
-  project: C:\projects\otservbr-global\build\otbr.sln
+  project: C:\projects\Gha\build\otbr.sln
   verbosity: minimal
   parallel: true
 
@@ -51,7 +51,7 @@ after_build:
   - 7z a -tzip otservbr-global.zip Release\
 
 cache:
-  - C:\projects\otservbr-global\build\vcpkg_installed\
+  - C:\projects\Gha\build\vcpkg_installed\
   - C:\Users\appveyor\AppData\Local\vcpkg\archives
 
 artifacts:
