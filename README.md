@@ -8,16 +8,16 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/opentibiabr/otservbr-global)
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a71728d523ac4b23a9c0b974ae4ec5df)](https://www.codacy.com/gh/opentibiabr/otservbr-global/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=opentibiabr/otservbr-global&amp;utm_campaign=Badge_Grade)
-[![CodeQL](https://github.com/opentibiabr/otservbr-global/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/opentibiabr/otservbr-global/actions/workflows/codeql-analysis.yml)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ecb1df63f2e647c0a648e3fbcada5847)](https://www.codacy.com/gh/Beats-Dh/Gha/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Beats-Dh/Gha&amp;utm_campaign=Badge_Grade)
+[![Analysis - CodeQL](https://github.com/Beats-Dh/Gha/actions/workflows/analysis-codeql.yml/badge.svg)](https://github.com/Beats-Dh/Gha/actions/workflows/analysis-codeql.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Beats-Dh_Gha&metric=alert_status)](https://sonarcloud.io/dashboard?id=Beats-Dh_Gha)
 
 ## Builds
 
 [![Build status](https://ci.appveyor.com/api/projects/status/github/opentibiabr/otservbr-global?branch=develop&passingText=develop%20-%20OK&svg=true)](https://ci.appveyor.com/project/opentibiabr/otservbr-global/build/artifacts "Download nightly builds for Windows")
 
-[![Build on Ubuntu](https://github.com/opentibiabr/otservbr-global/workflows/Build%20on%20Ubuntu/badge.svg)](https://github.com/opentibiabr/otservbr-global/actions?query=workflow%3A%22Build+on+Ubuntu%22)
-[![Build on Windows](https://github.com/opentibiabr/otservbr-global/workflows/Build%20on%20Windows/badge.svg)](https://github.com/opentibiabr/otservbr-global/actions?query=workflow%3A%22Build+on+Windows%22)
+[![Build - Ubuntu](https://github.com/Beats-Dh/Gha/actions/workflows/build-ubuntu.yml/badge.svg?branch=develop)](https://github.com/Beats-Dh/Gha/actions/workflows/build-ubuntu.yml)
+[![Build - Windows](https://github.com/Beats-Dh/Gha/actions/workflows/build-windows.yml/badge.svg?branch=develop)](https://github.com/Beats-Dh/Gha/actions/workflows/build-windows.yml)
 
 ## Project
 
