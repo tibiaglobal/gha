@@ -1,14 +1,7 @@
 ---
 name: Analysis - Codacy Security Scan
 
-on:
-  pull_request:
-  push:
-    branches:
-      - master
-      - dev
-      - devel
-      - develop
+on: [push, pull_request]
 
 jobs:
   codacy:
