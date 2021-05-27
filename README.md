@@ -14,7 +14,7 @@
 
 ## Builds
 
-[![Build status](https://ci.appveyor.com/api/projects/status/github/opentibiabr/otservbr-global?branch=develop&passingText=develop%20-%20OK&svg=true)](https://ci.appveyor.com/project/opentibiabr/otservbr-global/build/artifacts "Download nightly builds for Windows")
+[![Build status](https://ci.appveyor.com/api/projects/status/github/Beats-Dh/Gha?branch=develop&passingText=develop%20-%20OK&svg=true)](https://ci.appveyor.com/project/Beats-Dh/Gha/build/artifacts "Download nightly builds for Windows")
 
 [![Build - Ubuntu](https://github.com/Beats-Dh/Gha/actions/workflows/build-ubuntu.yml/badge.svg?branch=develop)](https://github.com/Beats-Dh/Gha/actions/workflows/build-ubuntu.yml)
 [![Build - Windows](https://github.com/Beats-Dh/Gha/actions/workflows/build-windows.yml/badge.svg?branch=develop)](https://github.com/Beats-Dh/Gha/actions/workflows/build-windows.yml)
