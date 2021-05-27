@@ -10,7 +10,7 @@
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a71728d523ac4b23a9c0b974ae4ec5df)](https://www.codacy.com/gh/opentibiabr/otservbr-global/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=opentibiabr/otservbr-global&amp;utm_campaign=Badge_Grade)
 [![CodeQL](https://github.com/opentibiabr/otservbr-global/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/opentibiabr/otservbr-global/actions/workflows/codeql-analysis.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=opentibiabr_otservbr-global&metric=alert_status)](https://sonarcloud.io/dashboard?id=opentibiabr_otservbr-global)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Beats-Dh_Gha&metric=alert_status)](https://sonarcloud.io/dashboard?id=Beats-Dh_Gha)
 
 ## Builds
 
