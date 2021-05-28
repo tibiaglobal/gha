@@ -1,5 +1,5 @@
 ---
-name: SonarCloud - Test
+name: Teste SonarCloud - Test
 on:
   push:
     branches:
