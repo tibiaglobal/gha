@@ -24,7 +24,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-20.04]
-        buildtype: [Release, Debug, RelWithDebInfo]
+        buildtype: [Debug, RelWithDebInfo]
         include:
           - os: ubuntu-20.04
             triplet: x64-linux
