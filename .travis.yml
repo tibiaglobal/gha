@@ -29,7 +29,7 @@ addons:
       - unzip
 
 install:
-  - cd /home/travis/build/Gha
+  - cd /home/travis/build/Beats-Dh
   - git clone https://github.com/microsoft/vcpkg
   - ./vcpkg/bootstrap-vcpkg.sh
   - ./vcpkg/vcpkg integrate install
