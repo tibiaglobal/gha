@@ -13,9 +13,9 @@ git:
 
 addons:
   sonarcloud:
-    organization: "opentibiabr"
+    organization: "ots-1"
     token:
-      secure: X+7KiitGRaVuYh8wjZQDJ3kmv2B+FNudXaRUbOwjK/a+0YK0z7FkVmXklg05MygF4QtjkTOdUqg/HSgSY492/jMkb2ZxOlI/utR+UUnKf77XiwBFcUG+bmdNAG8+U0MG5I70xKjauXdNrUFZu9Ds5TpD40m4UMmAr0pGtrXyP6T28WG7t/sNxzlmwSx0Z+2+ZKhEFdneAXVXX6zC6TXA5yPFvEdawPm8iqJ7fjq559Yqsn7l38Sd3BVoa9tbcwTMCvQwn6DivxLbkSKYs173y33bbGx48rikf9JHdFaSPVD7rNzpiuz7JCxJu6eBjh+FP9lxs4jJ0Kb8NEzxzotjGNSyxAW7+o0F8F869PL3fpTcWMlWTnrEVAn5pIXGaZ6+0yhoCSCwbHGKX42rUXndlROF1laCnE8ANOBFqxElVQpRNJVI2Xh34q32VdElGX9I73BmaTq8QZN9o4a895g3a2XeP4tCUxNbflh60uMHa6eOS5mOuuOc4l6ehYvwJw3aa3Pcz46RvcAWfp+5aslTDXnCZzDoBlTSx8tKkR7kNe+AnZj2yQi0j/mWOR97S9N2qfKDaEGnMtyq+EUEkOE6KPI8eqzrNYHbNX6SVbyfMer8nAem6b1p8PgaU+vgeixgtWaB+OgZSf592xrtkrKEeuA37dm+hwQJ2IzcZ7+p7RA=
+      secure: 5e2b89be5a71d5080b74a91e498c75e68c21f853
   apt:
     update: true
     packages:
