@@ -35,12 +35,12 @@ install:
   - ./vcpkg/vcpkg integrate install
 
 script:
-  - cd /home/travis/build/Gha/otservbr-global
+  - cd /home/travis/build/Beats-Dh/otservbr-global
   - export CXXFLAGS="$CXXFLAGS -DBOOST_ASIO_DISABLE_NOEXCEPT=1 "
-  - /home/travis/build/Gha/vcpkg/vcpkg --feature-flags=binarycaching,manifests,versions install
+  - /home/travis/build/Beats-Dh/vcpkg/vcpkg --feature-flags=binarycaching,manifests,versions install
   - mkdir build
   - cd build
-  - cmake -DCMAKE_TOOLCHAIN_FILE=/home/travis/build/Gha/vcpkg/scripts/buildsystems/vcpkg.cmake ..
+  - cmake -DCMAKE_TOOLCHAIN_FILE=/home/travis/build/Beats-Dh/vcpkg/scripts/buildsystems/vcpkg.cmake ..
   - cd ..
   - NUMBER_OF_PROCESSORS=$(nproc --all)
   - build-wrapper-linux-x86-64 --out-dir bw-output cmake --build build/
