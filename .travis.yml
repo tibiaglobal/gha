@@ -15,7 +15,7 @@ addons:
   sonarcloud:
     organization: "ots-1"
     token:
-      secure: 5e2b89be5a71d5080b74a91e498c75e68c21f853
+      secure: TD/0eEeWeQr932hYD60+l2bcDjg+8nZsoRNXn1WJp3MdUO2nms2azZkoTVzelldh6GbfSQdDBfXVwwA251zpCaUuHuKGEWmdVJhbHeXAta7TXkA92c/GQRDVCTRemplHR/dTdEJvpYkopjE1I9KjaIdh37xflmmasw2j1VrVH4w9qAG+SWvab085tpnrGEFwONuMfwJg0RHOIeKC9IACk0pnAJI3XPmzA07Zdtdp696PWr8cFC8WI89Opo33gPOq3jfRyKPWxkTpUe4o91Ear+dtusv9N8enXr/uH8uy8+xEXSb8qcs9hNvH/PRQlltYN+SL0kJP62fkK5RK9sQPXyjI5hDYVt1sQ4LjeIjJzYQ6Co+T7AHhbdHxsO/TxC+7qk/97Iw61XNUWtnKDkZRwOQNHOGCC+Vz+tyHCEO+ScccaF9bJUtEecSZ2QqlHWCqpJYDJLhgkkEpI8Xm6S4iIN+s/pqQCnD2bQ+yIyVzlzdcuW11zxDY5AaCc3htkDSYABrNOSkT8X/lUHYFjOSqLhNzWMENv01WdwagHagZ3yi2KaZgOoLxGIYKjgyIcK4X0mVVgCOHl8WoCwhwuQuu8C80INh5MzxhYaKkmjj5H6UuUUrsemYsTZzTdsLoK18u3tTjDRi8/RyGWt/qJjGx6+uiDCM/VhtLRLySLhPPYWU=
   apt:
     update: true
     packages:
