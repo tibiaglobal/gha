@@ -29,25 +29,25 @@ addons:
       - unzip
 
 install:
-  - cd /home/travis/build/opentibiabr
+  - cd /home/travis/build/Gha
   - git clone https://github.com/microsoft/vcpkg
   - ./vcpkg/bootstrap-vcpkg.sh
   - ./vcpkg/vcpkg integrate install
 
 script:
-  - cd /home/travis/build/opentibiabr/otservbr-global
+  - cd /home/travis/build/Gha/otservbr-global
   - export CXXFLAGS="$CXXFLAGS -DBOOST_ASIO_DISABLE_NOEXCEPT=1 "
-  - /home/travis/build/opentibiabr/vcpkg/vcpkg --feature-flags=binarycaching,manifests,versions install
+  - /home/travis/build/Gha/vcpkg/vcpkg --feature-flags=binarycaching,manifests,versions install
   - mkdir build
   - cd build
-  - cmake -DCMAKE_TOOLCHAIN_FILE=/home/travis/build/opentibiabr/vcpkg/scripts/buildsystems/vcpkg.cmake ..
+  - cmake -DCMAKE_TOOLCHAIN_FILE=/home/travis/build/Gha/vcpkg/scripts/buildsystems/vcpkg.cmake ..
   - cd ..
   - NUMBER_OF_PROCESSORS=$(nproc --all)
   - build-wrapper-linux-x86-64 --out-dir bw-output cmake --build build/
   - sonar-scanner -Dsonar.cfamily.cache.enabled=true -Dsonar.cfamily.cache.path=${TRAVIS_HOME}/.cfamily -Dsonar.cfamily.threads=${NUMBER_OF_PROCESSORS} || true
 
   # - sonar-scanner -Dsonar.cfamily.cache.enabled=true -Dsonar.cfamily.cache.path=${TRAVIS_HOME}/.cfamily -Dsonar.cfamily.threads=${NUMBER_OF_PROCESSORS} || true
-  # - curl --upload-file /home/travis/build/opentibiabr/otservbr-global/sonar-cfamily-reproducer.zip https://transfer.sh/sonar-cfamily-reproducer.zip
+  # - curl --upload-file /home/travis/build/Gha/otservbr-global/sonar-cfamily-reproducer.zip https://transfer.sh/sonar-cfamily-reproducer.zip
 
 cache:
   directories:
