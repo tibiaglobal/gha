@@ -95,3 +95,4 @@ jobs:
             !${{ github.workspace }}/cmake/
             !${{ github.workspace }}/sonar-project.properties
             !${{ github.workspace }}/Jenkinsfile
+            !${{ github.workspace }}/GitVersion.yml
